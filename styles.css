@@ -112,15 +112,16 @@ a:hover {
 .about-wrapper {
     background-color: #ffffe6;
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    overflow: scroll;
 }
 
 .content-wrapper {
-    /* background-color: pink; */
+    background-color: pink;
     width: 85%;
     height: 80%;
     min-width: 900px;
@@ -135,12 +136,12 @@ a:hover {
 }
 
 .about-text-box {
-    /* background-color: lightblue; */
+    background-color: lightblue;
     font-size: 20px;
     padding-left: 50px;
     padding-top: 20px;
     letter-spacing: 1px;
-    width: 65%;
+    width: 75%;
     min-width: 700px;
     padding-right: 100px;
 }
