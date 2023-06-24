@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ffffe6;
 }
 
 a {
@@ -76,13 +77,17 @@ a:hover {
     /* background-color: pink; */
     color: #4d4d4d;
     /* color: black; */
+
+    @media (max-width: 700px) {
+        min-width: 100%;
+    }
 }
 
 .name-box {
     color: #3973ac;
     margin: 20px 0px 130px 0px;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing: 4px;
     width: 700px;
 }
@@ -100,10 +105,14 @@ a:hover {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
-    font-size: 30px;
-    letter-spacing: 0px;
-    line-height: 1.5em;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 1.7em;
     font-weight: bold;
+
+    @media (max-width: 700px) {
+        font-size: 18px;
+    }
 }
 
 
@@ -129,6 +138,11 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     /* background-color: lightblue; */
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        padding-right: 25px;
+    }
 }
 
 .header {
@@ -138,18 +152,22 @@ a:hover {
 
 .about-text-box {
     /* background-color: lightblue; */
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 50px;
     padding-top: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     width: 80%;
     min-width: 700px;
     padding-right: 100px;
+
+    @media (max-width: 700px) {
+        font-size: 18px;
+    }
 }
 
 .about-blurb {
     color: #2d5986;
-    line-height: 53px;
+    line-height: 45px;
 }
 
 #prof-pic {
@@ -163,6 +181,10 @@ a:hover {
     width: 175px;
     padding: 20px 25px 25px 5px;
     border-radius: 50%;
+
+    @media (max-width: 700px) {
+        margin-left: 50px;
+    }
 }
 
 #name-text {
@@ -188,6 +210,11 @@ a:hover {
     padding-top: 100px;
     right: 100px;
     top: -50px;
+
+    @media (max-width: 700px) {
+        right: 50px;
+        top: -60px;
+    }
 }
 
 .education-text {
@@ -196,6 +223,12 @@ a:hover {
     row-gap: 15px;
     padding-top: 25px;
     color: #ff9966;
-    font-size: 15px;
-    letter-spacing: 4px
+    font-size: 17px;
+    letter-spacing: 4px;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+
+    @media (max-width: 700px) {
+        font-size: 16px;
+    }
 }
